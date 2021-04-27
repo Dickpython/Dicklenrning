@@ -4,3 +4,14 @@
 # 输出应为：
 #       LETTERS 10
 #       DIGITS 3
+s = input("请输入任意字母和数字")
+count = {"letters": 0,"digits": 0}
+for i in s:
+    if i.isalpha():
+        count["letters"] += 1
+    elif i.isdigit():
+        count["digits"] += 1
+    else :
+        pass
+print("LETTERS:",count["letters"])
+print("DIGITS:",count["digits"])
