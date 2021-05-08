@@ -24,10 +24,10 @@
 
 ## 示意图
 ### 首页
-<img src="./flask_training/images/首页.jpg" />
+<img src="./images/首页.jpg" />
 
 ### 发帖
-<img src="./flask_training/images/发帖.jpg" />
+<img src="./images/发帖.jpg" />
 
 ### 后台
-<img src="./flask_training/images/后台.jpg" />
+<img src="./images/后台.jpg" />
