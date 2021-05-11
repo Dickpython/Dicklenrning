@@ -12,3 +12,11 @@
 # choosing:1
 # or:2
 # to:1
+line_1 = {}
+str_1 = input("请输入")
+for i in str_1.split():
+    line_1[i] = line_1.get(i , 0) + 1
+x = sorted(line_1.keys())
+
+for y in x:
+    print("%s : %d" % (y,line_1[y]))
